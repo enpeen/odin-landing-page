@@ -23,7 +23,7 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    margin-left: -40px;
+    margin-left: -40gitpx;
 }
 
 a,
@@ -103,6 +103,8 @@ a {
 
 /* end of the first section*/
     
+/*second section*/
+
 .second {
     display: flex;
     flex-direction: column;
@@ -139,3 +141,5 @@ a {
 img {
     height: 175px;
 }
+
+/*end of the second section*/
