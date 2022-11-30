@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     font-family: Roboto, sans-serif;
@@ -6,7 +6,9 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /*first section*/
@@ -14,29 +16,34 @@ body {
 ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
 .left-header {
-    margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-left: -40px;
 }
 
 a,
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+   
 }
 
 a {
     text-decoration: none;
 }
 
-ul {
+.secondary-text {
     padding: 0px;
-    margin: 20px 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
+
+
 
 .right-header {
     display: flex;
@@ -49,13 +56,16 @@ ul {
     flex-direction: column;
     padding: 0px 200px;
     padding-bottom: 125px;
+    width: 1000px;
+
 }
 
 .main-text {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    margin: -25px 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .first-button {
@@ -66,23 +76,66 @@ ul {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
-    margin-top: -10px;
+    
+ 
 }
 
 .first-section {
     display: flex;
     margin-top: 75px;
+    justify-content: space-between;
+    align-items: center;
+  
 }
 
 .left-first {
     display: flex;
     flex-wrap: wrap;
     width: 450px; 
+    
 }
 
 .right-first {
-    margin-left: 45px;  
+   height: 250px;
+   
+   
 }
 
 /* end of the first section*/
     
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    width: 1000px;
+    padding: 0px 200px;
+    padding-bottom: 100px;
+  
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: bold;
+    color:  #1F2937;
+}
+
+.image-text {
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+}
+
+.image {
+    width: 200px;
+}
+
+img {
+    height: 175px;
+}
