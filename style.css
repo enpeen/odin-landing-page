@@ -154,7 +154,6 @@ a {
     align-items: center;
 }
   
-
 /* end of the second section */
 
 /* third section */
@@ -163,10 +162,6 @@ a {
     background-color: #E5E7EB;
     width: 1000px;
     padding: 0px 200px;
-    
-}
-
-.quote-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,6 +209,7 @@ a {
 .fourth-left {
   margin-right: 150px;
 }
+
 .fourth-right {
     align-self: center;
     border-radius: 8px;
@@ -223,8 +219,6 @@ a {
     font-size: 18px;
     font-weight: bold;
     padding: 6px 36px;
-    
-   
 }
 
 .fourth-header {
