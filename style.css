@@ -23,7 +23,7 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    margin-left: -40gitpx;
+    margin-left: -40px;
 }
 
 a,
@@ -103,7 +103,7 @@ a {
 
 /* end of the first section*/
     
-/*second section*/
+/* second section */
 
 .second {
     display: flex;
@@ -140,15 +140,14 @@ img {
     height: 175px;
 }
 
-/*end of the second section*/
+/* end of the second section */
+
+/* third section */
 
 .third {
     background-color: #E5E7EB;
     width: 1000px;
     padding: 0px 200px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    
     
 }
 
@@ -156,15 +155,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px; 
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    width: 790px;
-    
-     
+    width: 790px;    
 }
 
 .quote-name {
@@ -173,6 +172,55 @@ img {
     align-self: flex-end;
     margin-right: 140px;
     margin-top: -40px;
-    
-
 }
+
+/* end of third section*/
+
+/* fourt section */
+
+.fourth {
+    background-color: aqua;
+    width: 1000px;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-section {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 80px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.fourth-left {
+  margin-right: 150px;
+}
+.fourth-right {
+    align-self: center;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    border: 3px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 36px;
+    
+   
+}
+
+.fourth-header {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fourth-text {
+    padding: 0px;
+    margin: 0px;
+}
+
