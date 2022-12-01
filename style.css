@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     font-family: Roboto, sans-serif;
@@ -113,14 +113,12 @@ a {
     width: 1000px;
     padding: 0px 200px;
     padding-bottom: 100px;
-  
 }
 
 .images {
     display: flex;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .second-header {
@@ -143,3 +141,38 @@ img {
 }
 
 /*end of the second section*/
+
+.third {
+    background-color: #E5E7EB;
+    width: 1000px;
+    padding: 0px 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 790px;
+    
+     
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 140px;
+    margin-top: -40px;
+    
+
+}
