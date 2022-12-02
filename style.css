@@ -22,15 +22,19 @@ ul {
 .left-header {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: -40px;
+}
+
+.right-header {
+    display: flex;
+    gap: 20px;
 }
 
 a,
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-   
 }
 
 a {
@@ -41,13 +45,6 @@ a {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
-}
-
-
-
-.right-header {
-    display: flex;
-    gap: 20px;
 }
 
 .first {
@@ -62,7 +59,7 @@ a {
 
 .main-text {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     color: #F9FAF8;
     padding: 0px;
     margin: 0px;
@@ -76,8 +73,6 @@ a {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
-    
- 
 }
 
 .first-section {
@@ -85,14 +80,12 @@ a {
     margin-top: 75px;
     justify-content: space-between;
     align-items: center;
-  
 }
 
 .left-first {
     display: flex;
     flex-wrap: wrap;
     width: 450px; 
-    
 }
 
 .right-first {
@@ -103,7 +96,6 @@ a {
    display: flex;
    justify-content: center;
    align-items: center;
-
 }
 
 /* end of the first section*/
@@ -128,7 +120,7 @@ a {
 
 .second-header {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color:  #1F2937;
 }
 
@@ -136,6 +128,7 @@ a {
     font-size: 18px;
     color: rgb(104, 104, 104);
     margin: 7px;
+    width: 170px;
 }
 
 .object {
@@ -144,7 +137,7 @@ a {
     border: 5px solid #3882F6;
     border-radius: 12px;
     display: flex;
-  }
+}
   
 .image {
     width: 200px;
@@ -173,7 +166,8 @@ a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    width: 790px;    
+    width: 790px;
+    color: #1F2937;    
 }
 
 .quote-name {
@@ -182,6 +176,7 @@ a {
     align-self: flex-end;
     margin-right: 140px;
     margin-top: -40px;
+    color: #1F2937;
 }
 
 /* end of third section*/
@@ -213,9 +208,9 @@ a {
 .fourth-right {
     align-self: center;
     border-radius: 8px;
-    color: white;
+    color: #E5E7EB;
     background-color: #3882F6;
-    border: 3px solid white;
+    border: 3px solid #E5E7EB;
     font-size: 18px;
     font-weight: bold;
     padding: 6px 36px;
@@ -231,6 +226,7 @@ a {
 .fourth-text {
     padding: 0px;
     margin: 0px;
+    color: #E5E7EB;
 }
 
 /* end fo fourth section */
@@ -239,7 +235,7 @@ a {
 
 .footer {
   background-color: #1F2937;
-  color: white;
+  color: #E5E7EB;
   width: 1400px;
   padding: 20px 0px;
   display: flex;
