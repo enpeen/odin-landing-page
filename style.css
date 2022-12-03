@@ -10,6 +10,7 @@ body {
     align-items: stretch; 
     padding: 0px;
     margin: 0px; 
+    
 }
 
 /*first section*/
@@ -167,32 +168,28 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center; 
-}
-
-.three {
     padding-top: 100px;
     padding-bottom: 125px;
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    width: 790px;
-    color: #1F2937;    
+    max-width: 790px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .quote-name {
     font-size: 24px;
     font-weight: bold;
-    align-self: flex-end;
-    margin-right: 140px;
-    margin-top: -40px;
+    margin-top: -5px;
     color: #1F2937;
+    align-self: flex-end;
+    margin-right: 25px;
 }
 
 /* end of third section*/
@@ -201,7 +198,7 @@ a {
 
 .fourth {
     background-color: white;
-    padding: 100px 200px;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
 }
@@ -209,15 +206,16 @@ a {
 .blue-section {
     background-color: #3882F6;
     color: white;
-    padding: 50px 80px;
+    padding: 50px 140px;
     display: flex;
     border-radius: 8px;
-    justify-content: space-around;
-    width: 900px;
+    justify-content: center;
+    gap: 200px;
 }
 
+
 .fourth-left {
-  margin-right: 150px;
+
 }
 
 .fourth-right {
