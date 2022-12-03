@@ -170,6 +170,7 @@ a {
     align-items: center; 
     padding-top: 100px;
     padding-bottom: 125px;
+    
 }
 
 .quote {
@@ -181,12 +182,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin: 0px 20px;
 }
 
 .quote-name {
     font-size: 24px;
     font-weight: bold;
-    margin-top: -5px;
+    margin-top: -2px;
     color: #1F2937;
     align-self: flex-end;
     margin-right: 25px;
@@ -194,7 +196,7 @@ a {
 
 /* end of third section*/
 
-/* fourt section */
+/* fourth section */
 
 .fourth {
     background-color: white;
@@ -209,8 +211,11 @@ a {
     padding: 50px 140px;
     display: flex;
     border-radius: 8px;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-between;
+    display: flex;
+    width: 790px;
+    margin: 0px 20px;
+    gap: 30px;
 }
 
 
@@ -219,14 +224,15 @@ a {
 }
 
 .fourth-right {
-    align-self: center;
+   
     border-radius: 8px;
     color: #E5E7EB;
     background-color: #3882F6;
     border: 3px solid #E5E7EB;
     font-size: 18px;
     font-weight: bold;
-    padding: 6px 36px;
+    padding: 8px 36px;
+    align-self: center;
 }
 
 .fourth-header {
@@ -257,3 +263,8 @@ a {
 
 /* end of footer */
 
+@media (max-width: 600px) {
+    .blue-section {
+        padding: 20px 40px;
+    }
+}
