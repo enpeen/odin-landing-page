@@ -108,6 +108,11 @@ a {
     
 /* second section */
 
+.second-container {
+    display: flex;
+    justify-content: center
+}
+
 .second {
     display: flex;
     flex-direction: column;
@@ -294,13 +299,13 @@ a {
     .second {
         max-width: 600px;
     }
+
+    .image {
+        width: 190px;
+    }
     
 }
 
-.second-container {
-    display: flex;
-    justify-content: center
-}
 
 
 
