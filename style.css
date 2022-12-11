@@ -10,7 +10,6 @@ body {
     align-items: stretch; 
     padding: 0px;
     margin: 0px; 
-    
 }
 
 /*first section*/
@@ -92,17 +91,17 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .right-first {
-   height: 225px;
-   width: 500px;
+  
    background-color: rgb(146, 146, 146);
    color: white;
    display: flex;
    justify-content: center;
    align-items: center;
+   padding: 100px 125px;
+   
 }
 
 /* end of the first section*/
@@ -270,5 +269,17 @@ a {
     ul {
         gap: 20px;
     }
-}
 
+    .left-header {
+        margin-left: -30px;
+    }
+
+    .left-first {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    .right-first {
+        margin: 0px 10px;
+    }
+}
