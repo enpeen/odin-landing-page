@@ -290,6 +290,18 @@ a {
     
 }
 
+@media (max-width: 800px) {
+    .second {
+        max-width: 600px;
+    }
+    
+}
+
+.second-container {
+    display: flex;
+    justify-content: center
+}
+
 
 
         
