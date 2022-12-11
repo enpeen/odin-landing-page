@@ -263,6 +263,8 @@ a {
 
 /* end of footer */
 
+/* media queires for zooming adjustments */
+
 @media (max-width: 600px) {
     .blue-section {
         padding: 20px 40px;
@@ -305,6 +307,8 @@ a {
     }
     
 }
+
+/* end of media queires */
 
 
 
