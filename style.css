@@ -293,6 +293,7 @@ a {
 @media (max-width: 600px) {
     .images {
         justify-content: center;
+        row-gap: 8px;
     }
     
 }
@@ -305,8 +306,14 @@ a {
     .image {
         width: 190px;
     }
+
+    .images {
+        row-gap: 12px;
+    }
     
 }
+
+
 
 /* end of media queires */
 
